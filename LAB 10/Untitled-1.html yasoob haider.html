@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cargo Lost & Found - Home</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+
+<body>
+
+<!-- NAVBAR -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+  <div class="container">
+    <a class="navbar-brand" href="#">Cargo Lost & Found</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item">
+          <a class="nav-link active" href="index.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="lostfound.html">Report Lost/Found</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- HERO SECTION -->
+<header class="bg-light py-5">
+  <div class="container text-center">
+    <h1 class="display-4 fw-bold">Welcome to Airline Cargo Lost & Found</h1>
+    <p class="lead">Submit lost or found cargo details quickly and safely.</p>
+    <a href="lostfound.html" class="btn btn-primary btn-lg">Report Now</a>
+  </div>
+</header>
+
+<!-- INFO SECTION -->
+<section class="py-5">
+  <div class="container">
+    <h2 class="text-center mb-4">How It Works</h2>
+    <div class="row">
+      
+      <div class="col-md-4 text-center">
+        <div class="card p-3 shadow-sm">
+          <h4>1. Submit Report</h4>
+          <p>Provide details of lost or found cargo through our simple form.</p>
+        </div>
+      </div>
+
+      <div class="col-md-4 text-center">
+        <div class="card p-3 shadow-sm">
+          <h4>2. Verification</h4>
+          <p>Our team verifies the information and matches the cargo records.</p>
+        </div>
+      </div>
+
+      <div class="col-md-4 text-center">
+        <div class="card p-3 shadow-sm">
+          <h4>3. Recovery</h4>
+          <p>If matched, you will be contacted to claim your cargo safely.</p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer class="bg-primary text-white text-center py-3">
+  <p class="mb-0">© 2025 Cargo Lost & Found System</p>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Report Lost or Found Cargo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+
+<body>
+
+<!-- NAVBAR -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+  <div class="container">
+    <a class="navbar-brand" href="#">Cargo Lost & Found</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="index.html">Home</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- FORM SECTION -->
+<div class="container my-5">
+    <h2 class="text-center mb-4">Report Lost / Found Cargo</h2>
+
+    <form class="card p-4 shadow">
+
+      <div class="mb-3">
+        <label class="form-label">Report Type</label>
+        <select class="form-select" required>
+          <option value="">Select...</option>
+          <option value="lost">Lost Cargo</option>
+          <option value="found">Found Cargo</option>
+        </select>
+      </div>
+
+      <div class="mb-3">
+        <label class="form-label">Cargo Description</label>
+        <textarea class="form-control" rows="3" placeholder="Describe the cargo item" required></textarea>
+      </div>
+
+      <div class="mb-3">
+        <label class="form-label">Cargo ID / Tag Number</label>
+        <input type="text" class="form-control" placeholder="Enter Cargo ID">
+      </div>
+
+      <div class="mb-3">
+        <label class="form-label">Location Found / Lost</label>
+        <input type="text" class="form-control" placeholder="e.g., Terminal 2, Cargo Bay A">
+      </div>
+
+      <div class="mb-3">
+        <label class="form-label">Date</label>
+        <input type="date" class="form-control" required>
+      </div>
+
+      <div class="mb-3">
+        <label class="form-label">Your Contact Information</label>
+        <input type="text" class="form-control" placeholder="Phone or Email" required>
+      </div>
+
+      <button type="submit" class="btn btn-primary w-100">Submit Report</button>
+
+    </form>
+</div>
+
+<!-- FOOTER -->
+<footer class="bg-primary text-white text-center py-3">
+  <p class="mb-0">© 2025 Cargo Lost & Found System</p>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
